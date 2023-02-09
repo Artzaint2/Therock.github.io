@@ -1,0 +1,1 @@
+<form onsubmit="return confirm('Do you really want to submit the form?');"></form>

@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+#container{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333131;
+    height: 100vh;
+    display: flex;
+
+    /* Direction of the items, can be row or column */
+    flex-direction: column;
+}
+
+@media screen and (min-width: 80rem) {
+    .container {
+      margin: 1em 2em;
+    }
+  }
+
+#header{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    padding: 1%;
+}
+
+#nav{
+    width: 100%;
+    font-size: large;
+    color: black;
+    background: #ccc;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    height: 60px;
+}
+
+#nav ul{
+    display: flex;
+    justify-content: center;
+}
+  
+#nav ul li{
+    list-style: none;
+}
+
+
+#nav ul li a{
+     text-decoration: none;
+     display: table;
+     padding: 20px 20px 20px 20px;
+     color: black;
+} 
+
+#nav ul li a:hover{
+    background-color: black;
+    color: white;
+}
+
+#cuerpo{
+    font-size: large;
+    color: white;
+    padding-top: 1%;
+    justify-content: justify;
+    width: 100%;
+    flex: 1;
+} 
+
+#cuerpo p {
+    display: flex;
+    justify-content: center;    
+    padding-top: 0.3cm;
+}
+
+#cuerpo p h3{
+    text-decoration: none;
+}
+
+#img{
+  padding-top: 0.5cm;
+  display:flex;
+  justify-items: center;
+  width: 300px;
+  height: 250px;
+  position: relative;
+  right: 15%;
+  bottom: 45%;
+  float: right;
+  padding: 10px;
+
+}
+
+
+
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    left: 1px;
+  }
+
+  input[type=number] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    left: 1px;
+  }
+
+  input[type=submit] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    left: 15px;
+    bottom: 15px;
+    background-color: #ccc;
+  }
+
+  input[type=submit]:hover {
+   color: white;
+   background-color: black;
+  }
+
+#footer{
+    position: absolute;
+    margin-top: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: 50px;
+    padding-top: 2px;
+    color: #fff;
+    justify-content: center;
+    display: flex;
+ 
+}
+
